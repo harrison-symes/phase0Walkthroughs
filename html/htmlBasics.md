@@ -7,6 +7,7 @@
   - [Setting up your files](#setup)
   - [Html Template](#html-template)
   - [View Your Page](#view-your-page)
+  - [Link Between Pages](#linking-between-pages)
 
 ### Setup
   * To get started, create and clone down a new repository where you will be creating your pages
@@ -55,3 +56,20 @@
 
 ![Open In Chrome](images/OpenChrome.png)
 * Hopefully you will see your title in the tab and your **Hello World** displayed in your browser
+* Now in the same way, open your second `.html` file in your browser, checking that the title and the **Hello World** text are visible
+
+## Linking between pages
+
+  * In your **index.html** file on atom, we want to create a link that redirects to your second web page
+  * Html links are done using `<a>` tags. These are how hyperlinks, which you have seen on every website ever, are made.
+    * The text between the `<a>` tags is what will be displayed to click on as the link, so pick something that makes sense, like `Hey, check out my other page!`
+  * You need to give an attritube to the opening `<a>` tag that tells the link where it will link to. The attribute name is `href`, and it should be equal to the file path of your second page.
+    * This may be a bit confusing, but if you followed these steps, the relative path to your second page should be `./SECOND_FILE_NAME.html`
+  * Bringing all of this together, your overall link should be something like this: `<a href="./secondPage.html">Hey, check out my other page!</a>`
+
+![Link to Second Page](images/LinkSecondPage.png)
+
+* Reopening/Reloading your page, your link should be visibile and your code should look something like this, and clicking on the link should take you to your other page
+* Now try adding a link from your second page back to your main page. The relative path for your link will need to be `./index.html` now, and some different text will help clarify where the link will take you
+
+![Both Pages](images/TwoPages.png)
