@@ -4,9 +4,9 @@
 - Helpful for Sprint 1, task 1.3
 
 #### Links
-  [Setting up your files](#setup)
-  [Html Template](#html-template)
-  [View Your Page](#view-your-page)
+  - [Setting up your files](#setup)
+  - [Html Template](#html-template)
+  - [View Your Page](#view-your-page)
 
 ### Setup
   * To get started, create and clone down a new repository where you will be creating your pages
