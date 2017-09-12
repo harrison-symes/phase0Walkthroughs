@@ -5,6 +5,8 @@
 
 #### Links
   [Setting up your files](#setup)
+  [Html Template](#html-template)
+  [View Your Page](#view-your-page)
 
 ### Setup
   * To get started, create and clone down a new repository where you will be creating your pages
@@ -45,11 +47,11 @@
   * Give your second page a title as well, and maybe a hello world with different text
 
 
-### Viewing your web page
+### View your page
 
 * On your terminal / command-line, navigate to your repo's directory
 * From your repo, run the command `google-chrome index.html`
   * If you don't have google-chrome, or your terminal does not recognise the command, you can always use your regular file browser (GUI), right click the index.html file, and choose `open with` and your browser of choice
-  
+
 ![Open In Chrome](images/OpenChrome.png)
 * Hopefully you will see your title in the tab and your **Hello World** displayed in your browser
