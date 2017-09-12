@@ -3,11 +3,16 @@
 - By Harrison Symes for EDA phase 0 students
 - Helpful for Sprint 1, task 1.3
 
+---
+
 #### Links
   - [Setting up your files](#setup)
   - [Html Template](#html-template)
   - [View Your Page](#view-your-page)
   - [Link Between Pages](#linking-between-pages)
+  - [Adding an Image](#add-an-image)
+
+---
 
 ### Setup
   * To get started, create and clone down a new repository where you will be creating your pages
@@ -19,6 +24,8 @@
   * Finally, open up your files in atom by running `atom .` This will open your whole directory in atom, so you can view and edit your two files
   ![Open In Atom](images/OpenInAtom.png)
   It should look like this ^
+
+---
 
 ### Html Template
 
@@ -47,6 +54,7 @@
 
   * Give your second page a title as well, and maybe a hello world with different text
 
+---
 
 ### View your page
 
@@ -57,6 +65,8 @@
 ![Open In Chrome](images/OpenChrome.png)
 * Hopefully you will see your title in the tab and your **Hello World** displayed in your browser
 * Now in the same way, open your second `.html` file in your browser, checking that the title and the **Hello World** text are visible
+
+---
 
 ## Linking between pages
 
@@ -73,3 +83,25 @@
 * Now try adding a link from your second page back to your main page. The relative path for your link will need to be `./index.html` now, and some different text will help clarify where the link will take you
 
 ![Both Pages](images/TwoPages.png)
+
+---
+
+## Add an Image
+
+* Find an image on the internet that you want to put on your main page, or use this one here `http://bit.ly/2vR7dXS`
+* An image is defined by a **self closing** `<img />` tag, which means that the tag opens and closes in one tag, rather than two.
+* Tell your `<img />` tag to draw an image from by giving it a `src` attribute that refers to your image.  
+* For web images it is as simple as writing `<img src="IMAGE_URL_HERE" />`
+* To use an image file from your repo, just replace the IMAGE_URL with the relative file path for your image, such as `./images/funnyCat.png`
+
+![Html Image](images/HtmlImage.png)
+
+### And there you go, two pages linked together, also containing images.
+
+### For the Next walkthrough, we will apply some basic styling to our page to make it prettier, stay tuned
+
+---
+
+Thanks for reading, hope this was helpful for you!
+
+If something wasn't clear enough for you, or you have other general feedback, send me a slack message @harrison_eda
