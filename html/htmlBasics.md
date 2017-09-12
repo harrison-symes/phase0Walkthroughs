@@ -37,6 +37,19 @@
     * For example, I am going to call my page `Phase 0 Fun`, so I have the line `<title>Phase 0 Fun</title>` in the head of my html
   * The best way to check that anything in code works, is to start with a **Hello World**, so in between the opening and closing `<body>` tags, insert the line `<h1>Hello World</h1>`
 
-  
+
   ![Hello World Page](images/HelloWorld.png)
+
   It should look something like this ^
+
+  * Give your second page a title as well, and maybe a hello world with different text
+
+
+### Viewing your web page
+
+* On your terminal / command-line, navigate to your repo's directory
+* From your repo, run the command `google-chrome index.html`
+  * If you don't have google-chrome, or your terminal does not recognise the command, you can always use your regular file browser (GUI), right click the index.html file, and choose `open with` and your browser of choice
+  
+![Open In Chrome](images/OpenChrome.png)
+* Hopefully you will see your title in the tab and your **Hello World** displayed in your browser
