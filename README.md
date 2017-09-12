@@ -1,4 +1,4 @@
-# Phase 0 Walkthroughts directory
+# Phase 0 Walk throughs directory
 
 ## Welcome to the walk through repository, I will be adding any walkthroughs that I create to assist with phase-0 understanding to this repo, follow the links below to find the walk through you are after
 
