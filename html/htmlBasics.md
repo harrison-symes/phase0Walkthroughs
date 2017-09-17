@@ -20,9 +20,13 @@
     * It is convention to name your home page **index.html**
     * The `.html` extension is important for the file to be recognised as an HTML file
   * Let's also make a second page for later on. Call it whatever you want, for this example, I will call it **secondPage.html**, so I'll run `touch secondPage.html` to create it
-  ![Html Setup](images/htmlSetup.png)
+
+![Html Setup](images/htmlSetup.png)
+
   * Finally, open up your files in atom by running `atom .` This will open your whole directory in atom, so you can view and edit your two files
-  ![Open In Atom](images/OpenInAtom.png)
+
+![Open In Atom](images/OpenInAtom.png)
+
   It should look like this ^
 
 ---
@@ -48,7 +52,7 @@
   * The best way to check that anything in code works, is to start with a **Hello World**, so in between the opening and closing `<body>` tags, insert the line `<h1>Hello World</h1>`
 
 
-  ![Hello World Page](images/HelloWorld.png)
+![Hello World Page](images/HelloWorld.png)
 
   It should look something like this ^
 
@@ -63,6 +67,7 @@
   * If you don't have google-chrome, or your terminal does not recognise the command, you can always use your regular file browser (GUI), right click the index.html file, and choose `open with` and your browser of choice
 
 ![Open In Chrome](images/OpenChrome.png)
+
 * Hopefully you will see your title in the tab and your **Hello World** displayed in your browser
 * Now in the same way, open your second `.html` file in your browser, checking that the title and the **Hello World** text are visible
 
@@ -96,12 +101,17 @@
 
 ![Html Image](images/HtmlImage.png)
 
+---
+
 ### And there you go, two pages linked together, also containing images.
 
-### For the Next walkthrough, we will apply some basic styling to our page to make it prettier, stay tuned
+### For the Next walkthrough, we will apply some basic styling to our page to make it prettier
+[Move on to CSS Basics](../css/cssBasics.md)
 
 ---
 
-Thanks for reading, hope this was helpful for you!
+---
 
-If something wasn't clear enough for you, or you have other general feedback, send me a slack message @harrison_eda
+### Thanks for reading, hope this was helpful for you!
+
+#### If something wasn't clear enough for you, or you have other general feedback, send me a slack message @harrison_eda
