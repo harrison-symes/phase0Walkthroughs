@@ -7,25 +7,26 @@
 ## Git/Terminal Walkthroughs
 
   ##### [Git and Command Line Basics](git/gitBasics.md)
+  - [Making a Repo](git/gitBasics.md#make-a-new-repository)
+  - [Cloning](git/gitBasics.md#cloning-a-repository)
+  - [Making a File](git/gitBasics.md#making-a-file)
   - [Pushing to github](git/gitBasics.md#pushing-to-github)
-
-  * Create and clone a new repo
-  * Create a new file in the repo
-  * Stage, Commit and Push the changes back to github
 
 ## Html Walkthroughs
 
   ##### [Creating a Basic Html Page](html/htmlBasics.md)
-  * Create and View a basic html page
-  * Linking/Redirecting to other pages
-  * Adding an image to your page
+  - [Setting up your files](html/htmlBasics.md#setup)
+  - [Html Template](html/htmlBasics.md#html-template)
+  - [View Your Page](html/htmlBasics.md#view-your-page)
+  - [Link Between Pages](html/htmlBasics.md#linking-between-pages)
+  - [Adding an Image](html/htmlBasics.md#add-an-image)
 
 ## Css Walkthroughs
 
   ##### [Setting up a basic stylesheet](css/cssBasics.md)
-  * Creating a stylesheet
-  * Giving your site a background color
-  * Linking in a stylesheet
+  - [Create a Stylesheet](css/cssBasics.md#creating-a-stylesheet)
+  - [Link a Stylesheet](css/cssBasics.md#linking-a-stylesheet)
+  - [Link Stylesheet to a Blog Page](css/cssBasics.md#linking-into-a-blog)
 
 ## Javascript Walkthroughs
 
