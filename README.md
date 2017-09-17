@@ -7,6 +7,8 @@
 ## Git/Terminal Walkthroughs
 
   ##### [Git and Command Line Basics](git/gitBasics.md)
+  - [Pushing to github](git/gitBasics.md#pushing-to-github)
+
   * Create and clone a new repo
   * Create a new file in the repo
   * Stage, Commit and Push the changes back to github
