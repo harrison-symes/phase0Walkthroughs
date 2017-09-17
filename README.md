@@ -4,26 +4,26 @@
 
 ---
 
-## Git Walkthroughs
-
+## Git/Terminal Walkthroughs
 
   ##### [Git and Command Line Basics](git/gitBasics.md)
   * Create and clone a new repo
   * Create a new file in the repo
-  * Stage and push the changes back to github
+  * Stage, Commit and Push the changes back to github
 
 ## Html Walkthroughs
 
   ##### [Creating a Basic Html Page](html/htmlBasics.md)
-  * Make and View the most basic html page
-  * Linking to other pages
-  * Adding images to your page
+  * Create and View a basic html page
+  * Linking/Redirecting to other pages
+  * Adding an image to your page
 
+## Css Walkthroughs
 
-  ##### [Setting up a basic stylesheet](html/cssBasics.md)
-  * Creating and importing a stylesheet
+  ##### [Setting up a basic stylesheet](css/cssBasics.md)
+  * Creating a stylesheet
   * Giving your site a background color
-  * Giving css properties to selected classes
+  * Linking in a stylesheet
 
 ## Javascript Walkthroughs
 
