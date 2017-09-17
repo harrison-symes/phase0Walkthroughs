@@ -6,6 +6,7 @@
 #### Links
   - [Create a Stylesheet](#creating-a-stylesheet)
   - [Link a Stylesheet](#linking-a-stylesheet)
+    - [Link Stylesheet to a Blog Page](#linking-into-a-blog)
 
 ---
 
@@ -56,6 +57,26 @@
   ![Background Working](images/Pink!.png)
   ##### B-E-A-utiful
 
+  ---
+
+  ### Linking into a blog
+
+  * Now that my styles are working for my index page, I want to add the same stylesheet to my secondPage. My second page however, is located inside a `blogs` directory (folder), so I can't use the same relative path.
+
+      harrison-symes.github.io
+      * index.html
+      * style.css
+      * /blogs
+        * secondPage.html
+
+  * ^^ This is what my file structure looks like, my `secondPage.html` is inside my `/blogs` directory
+  * All this means is that the relative path to `style.css` from my `secondPage.html` will be `../style.css`, rather than the previous `./style.css`, as we need to go back one directory with `../`
+
+  ```html
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+
+  ```
+  ![Second Page is Pink!](images/PinkTwo!.png)
   ---
 
 ### Thanks for reading, hope this was helpful for you!
